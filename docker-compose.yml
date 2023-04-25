@@ -1,0 +1,14 @@
+version: "3.9"
+volumes:
+  redis-data:
+networks:
+  backend:
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./docker/php/php.dockerfile
+    volumes:
+      - type: bind
+        source: ./app
+        target: /workspace

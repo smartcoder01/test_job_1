@@ -1,0 +1,20 @@
+{
+    "name": "smartcoder/lead-generator",
+    "autoload": {
+        "psr-4": {
+            "Smartcoder\\LeadGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Evgenii",
+            "email": "38227632+smartcoder01@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "vladimir163/lead-generator": "dev-master",
+        "ext-pcntl": "*",
+        "ext-posix": "*"
+    },
+    "minimum-stability": "dev"
+}
